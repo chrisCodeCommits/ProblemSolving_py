@@ -56,8 +56,6 @@ def centuryFromYear(year):
     elif len(data) == 3 and data[1:] == '00':
         return formula_twoB
 
-    elif len(data) == 2:
-        return 1
-    elif len(data) == 1:
+    elif len(data) <= 2:
         return 1
     

@@ -59,3 +59,9 @@ def centuryFromYear(year):
     elif len(data) <= 2:
         return 1
     
+###### SHORTER SOLUTION ##################################################
+
+def centuryFromYear(year):
+    return (year + 99) // 100
+
+##########################################################################

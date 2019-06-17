@@ -35,3 +35,15 @@ Prints help message to the console
  def adjacentElementsProduct(array):
         operation = (array[n] * array[n + 1] for n in range(len(array)-1))
     return max(operation)
+   
+   
+   
+   ###### Alternative ####################################
+   
+   def adjacentElementsProduct(inputArray):
+    
+    operation = (
+     inputArray[n] * inputArray[n + 1] for n in range(len(inputArray)-1)
+    )
+    
+    return max(operation)

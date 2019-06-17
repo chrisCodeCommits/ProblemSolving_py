@@ -64,9 +64,9 @@ def centuryFromYear(year):
     ######### SHORTER SOLUTION ###########################
     
     def centuryFromYear(year):
-    if str(year)[2:] == str(00):
-        return year // 100
-    else:
-        return (year // 100)+1
+        if str(year)[2:] == str(00):
+            return year // 100
+        else:
+            return (year // 100)+1
     
     ######################################################
